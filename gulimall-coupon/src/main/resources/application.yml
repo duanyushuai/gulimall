@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://124.70.99.112:3306/gulimall_sms
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+
+server:
+  port: 8003
